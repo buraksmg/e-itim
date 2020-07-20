@@ -1,0 +1,6 @@
+pi=(3.14)
+r=float(input("Dairenin yarıçapını giriniz: "))
+print("Dairenin Çevresi= ",(pi*2*r))
+print("Dairenin alanı= ", (pi*r*r))
+h=float(input("Silindirin yüksekliğini giriniz: "))
+print("Silindirin hacmi= ",(pi*r*r*h))
