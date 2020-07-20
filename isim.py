@@ -1,5 +1,9 @@
 """isimli birşeyler"""
 isim=str(input("İsminizi giriniz: "))
+if (isim ==str('solmazgul' and 'smg')):
+    print("Adamsın!")
+elif (isim != (int) ):
+    print("İsim diyoruz sayı giriyorsun?!")
 a=int(input('''Seçenekler:
 1. İsminiz büyük harfle yazılır. 
 2. İsminiz küçük harfle yazılır.
