@@ -1,7 +1,8 @@
-pi=(3.14)
+"""silindir çevre alan ve hacim hesaplama"""
+PI=3.14
 r=float(input("Dairenin yarıçapını giriniz: "))
-a = (pi*2*r)
-b = (pi*r**2)
+a = (PI*2*r)
+b = (PI*r**2)
 h=float(input("Silindirin yüksekliğini giriniz: "))
-c = (pi*r**2*h)
+c = (PI*r**2*h)
 print("Dairenin çevresi= ",a,"Dairenin alanı= ",b,"Silindirin hacmi= ",c)
